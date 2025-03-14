@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Manga-font";
+    src: url(../fonts/Outfit/Outfit-VariableFont_wght.ttf) format("truetype"); 
+    font-weight: normal;
+  font-style: normal;
+
+}
+:root{
+    --roxo-claro: #770FA0;
+    --roxo-escuro:#3F0954;
+    --preto:#302D33;
+    --branco:#FCF8FF;
+    --font-princip: "Manga-font" sans-serif;
+}
+
+*{margin: 0;padding: 0;}
+body{
+    font-family: "Manga-font" sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--roxo-escuro);
+    overflow-x: hidden;
+}
+header{
+    width: 100dvw;
+    height: 10dvh;
+    background-color: var(--roxo-claro);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2em;
+    border-bottom: 1px solid var(--branco);
+}
+
+header section.img{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--branco);
+}
+
+header section.img img{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+}
+
+header section.header-itens{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header section.header-itens a{
+    text-decoration: none;
+    color: var(--branco);
+}
+header a.perfil{
+    background-image: url(../img/Frame-account-icon.svg);
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+
+footer{
+    width: 100dvw;
+    height: 30dvh;
+    background-color: var(--preto);
+
+}

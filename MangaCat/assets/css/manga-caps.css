@@ -1,0 +1,21 @@
+@import url(style.css);
+
+div.container-escolher-cap{
+    width: 40dvw;
+    height: 80dvh;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    border: 1px solid var(--branco);
+    background-color: var(--preto);
+    transform: translate(-50%,-50%);
+}
+
+a.capitulo{
+    width: 40dvw;
+    height: 50px;
+    text-decoration: none;
+    color: var(--branco);
+    border: 1px solid var(--branco);
+
+}
