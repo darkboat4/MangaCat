@@ -3,10 +3,14 @@
 
 
 div.container-carrosel{
-    width: 90dvw;
-    height: 70dvh;
+    width: 90%;
+    height: 55dvh;
     background-color: var(--preto);
     margin-top: 8dvh;
+    background-image: url(../img/banner-jujutsu-kaisen.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 div.recem-lancados{
